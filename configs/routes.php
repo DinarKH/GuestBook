@@ -1,5 +1,5 @@
 <?php
-//error_reporting(0);
+error_reporting(0);
 
 return array(
 	'vacans/([0-9]+)' => 'vacans/list/$1',
