@@ -73,9 +73,9 @@
                             </div>
                             <div class="margin-b-10">
                                 <?php if(isset($_SESSION['name'])): ?>
-                                    <input type="text" name="password" class="form-control" placeholder="Password" readonly>     
+                                    <input type="password" name="password" class="form-control" placeholder="Password" readonly>     
                                 <?php else: ?>    
-                                    <input type="text" name="password" class="form-control" placeholder="Password">             
+                                    <input type="password" name="password" class="form-control" placeholder="Password">             
                                 <?php endif; ?>
                             </div>
                             <?php if(isset($_SESSION['name'])): ?>
